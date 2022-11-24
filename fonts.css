@@ -16,8 +16,8 @@
 
 @font-face {
     font-family: 'varela Round';
-    src: url('https://hayleer88.github.io/codes/varelaround-regular-webfont.woff2') format('woff2'),
-         url('https://hayleer88.github.io/codes/varelaround-regular-webfont.woff') format('woff');
+    src: url('../../codes/varelaround-regular-webfont.woff2') format('woff2'),
+         url('../../codes/varelaround-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -28,8 +28,8 @@
 
 @font-face {
     font-family: 'Pearl';
-    src: url('https://hayleer88.github.io/codes/tan-pearl-webfont.woff2') format('woff2'),
-         url('https://hayleer88.github.io/codes/tan-pearl-webfont.woff') format('woff');
+    src: url('../../codes/tan-pearl-webfont.woff2') format('woff2'),
+         url('../../codes/tan-pearl-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
