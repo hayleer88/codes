@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'tan_-_pearlregular';
-    src: url('tan-pearl.woff2') format('woff2'),
-         url('tan-pearl.woff') format('woff');
+    src: url('https://hayleer88.github.io/codes/tan-pearl.woff2') format('woff2'),
+         url('https://hayleer88.github.io/codes/tan-pearl.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -16,8 +16,8 @@
 
 @font-face {
     font-family: 'varela_roundregular';
-    src: url('varelaround-regular.woff2') format('woff2'),
-         url('varelaround-regular.woff') format('woff');
+    src: url('https://hayleer88.github.io/codes/varelaround-regular.woff2') format('woff2'),
+         url('https://hayleer88.github.io/codes/varelaround-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
