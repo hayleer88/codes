@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'allegory';
-    src: url('https://hayleer88.github.io/codes/allegory-webfont.woff2') format('woff2'),
-         url('https://hayleer88.github.io/codes/allegory-webfont.woff') format('woff');
+    src: url('../../codes/allegory-webfont.woff2') format('woff2'),
+         url('../../codes/allegory-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
