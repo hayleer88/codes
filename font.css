@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'allegory';
+    src: url('https://files.jcink.net/uploads/hayleetest/Allegory.ttf') format('ttf')
+        
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'varela Round';
+    src: url('https://files.jcink.net/uploads/hayleetest/VarelaRound_Regular.ttf') format('ttf')
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Pearl';
+    src: url('https://files.jcink.net/uploads/hayleetest/TAN_PEARL.ttf') format('ttf')
+    font-weight: normal;
+    font-style: normal;
