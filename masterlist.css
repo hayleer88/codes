@@ -55,7 +55,7 @@ html[color-mode="dark"] .hayleetemplate { --fontcolor: 255,255,255; --hayleebg1:
   grid-column: 1;
   padding-left: 60px;
   text-align: justify;
-  font-family: 'Allegory'; 
+  font-family: 'Allegory'; 'Courier New', monospace; 
   font-weight: 900; 
   font-size: 12px; 
   line-height: 1.6;
