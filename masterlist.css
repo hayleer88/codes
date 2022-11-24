@@ -57,7 +57,7 @@ html[color-mode="dark"] .hayleetemplate { --fontcolor: 255,255,255; --hayleebg1:
   text-align: justify;
   font-family: 'cormorant garamond', 'Courier New', monospace; 
   font-weight: 300; 
-  font-size: 12px; 
+  font-size: 14px; 
   line-height: 1.6;
   color: var(--fontcolor);
 }
@@ -126,7 +126,7 @@ animation: testing 8s linear infinite;
   color: var(--fontcolor);
   font-family: 'cormorant garamond', 'Courier New', monospace; 
   font-weight: 300; 
-  font-size: 12px; 
+  font-size: 14px; 
   text-transform: uppercase;
   background: var(--mggradient);
   padding: 5px;
