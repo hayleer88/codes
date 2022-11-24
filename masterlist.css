@@ -1,4 +1,7 @@
-
+#CODE-WRAP {
+width: 500px !important;
+margin: auto !important;
+}
 
 .hayleetemplate { --fontcolor: 0,0,0; --hayleebg1: #f2f2f2;  --hayleebg2: #fafafa; --hayleebg3: rgba(255,255,255,0.4); --mggradient: linear-gradient(90deg, rgb(var(--mgrgb1),.5), rgb(var(--mgrgb2),.5), rgb(var(--mgrgb3),.5));  --mggradient25: linear-gradient(270deg, rgb(var(--mgrgb1),.25), rgb(var(--mgrgb2),.25), rgb(var(--mgrgb3),.25));
 }
