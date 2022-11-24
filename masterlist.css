@@ -32,7 +32,7 @@ html[color-mode="dark"] .hayleetemplate { --fontcolor: 255,255,255; --hayleebg1:
   grid-column: 1;
   padding-top: 40px;
   padding-left: 40px; 
-  font-family: 'Pearl';
+  font-family: 'Pearl'; 'Brush Script MT', cursive;
   font-weight: 900;
   background: var(--mggradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
   text-align: justify;
@@ -61,12 +61,12 @@ html[color-mode="dark"] .hayleetemplate { --fontcolor: 255,255,255; --hayleebg1:
   line-height: 1.6;
   color: var(--fontcolor);
 }
-.haylee-sub-title b { font-family: 'varela Round'; 
+.haylee-sub-title b { font-family: 'varela Round'; Verdana, sans-serif;
   font-size: 14px; 
   background: transparent var(--mggradient) no-repeat right bottom;
 background-size: 100% 2.5px;
 padding-bottom: 1px;}
-.haylee-sub-title i { font-family: 'varela Round'; font-size: 16px; font-size: 14px; background: rgb(var(--mgrgb2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; color: transparent; }
+.haylee-sub-title i { font-family: 'varela Round'; Verdana, sans-serif; font-size: 16px; font-size: 14px; background: rgb(var(--mgrgb2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; color: transparent; }
 }
 .hayleegif {
   width: 80px; 
