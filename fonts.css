@@ -24,12 +24,11 @@
 }
 
 @font-face {
-    font-family: 'Allegory';
+    font-family: 'allegory';
     src: url('https://hayleer88.github.io/codes/allegory.woff2') format('woff2'),
          url('https://hayleer88.github.io/codes/allegory.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
-
 {"mode":"basic","formats":["woff","woff2"],"tt_instructor":"default","fix_gasp":"xy","fix_vertical_metrics":"Y","metrics_ascent":"","metrics_descent":"","metrics_linegap":"","add_spaces":"Y","add_hyphens":"Y","fallback":"none","fallback_custom":"100","options_subset":"basic","subset_custom":"","subset_custom_range":"","subset_ot_features_list":"","css_stylesheet":"stylesheet.css","filename_suffix":"-webfont","emsquare":"2048","spacing_adjustment":"0"}
