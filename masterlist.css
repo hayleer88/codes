@@ -32,7 +32,7 @@ html[color-mode="dark"] .hayleetemplate { --fontcolor: 255,255,255; --hayleebg1:
   grid-column: 1;
   padding-top: 40px;
   padding-left: 40px; 
-  font-family: 'Pearl'; 'Brush Script MT', cursive;
+  font-family: 'Pearl', 'Brush Script MT', cursive;
   font-weight: 900;
   background: var(--mggradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
   text-align: justify;
@@ -43,7 +43,7 @@ html[color-mode="dark"] .hayleetemplate { --fontcolor: 255,255,255; --hayleebg1:
   grid-row: 2;
  grid-column: 1;
   padding-left: 40px; 
-  font-family: 'Pearl';
+  font-family: 'Pearl', 'Brush Script MT', cursive;
   font-weight: 900;
   background: var(--mggradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
   text-align: justify;
