@@ -148,8 +148,8 @@ animation: testing 8s linear infinite;
 }
 .haylee-flex txt {
   color: var(--fontcolor);
-  font-family: 'allegory', 'Courier New', monospace; 
-  font-weight: 900; 
+  font-family: 'cormorant garamond', 'Courier New', monospace; 
+  font-weight: 300; 
   font-size: 12px; 
   text-transform: uppercase;
   background: var(--mggradient);
