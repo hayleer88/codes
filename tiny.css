@@ -1,7 +1,7 @@
 .tinytemplate { --fontcolor: 0,0,0; --tinybg: rgba(255,255,255,0.4); --tinygradient: linear-gradient(90deg, rgb(var(--mgrgb3),.3), rgb(var(--mgrgb2),.3), rgb(var(--mgrgb1),.3)); --mggradient1: linear-gradient(90deg, rgb(var(--mgrgb3),.5), rgb(var(--mgrgb2),.5), rgb(var(--mgrgb1),.5));  --mggradient2: linear-gradient(270deg, rgb(var(--mgrgb3),.25), rgb(var(--mgrgb2),.25), rgb(var(--mgrgb1),.25));
 }
 
-html[color-mode="dark"] .tinytemplate { --fontcolor: 255,255,255; --tinybg: rgba(27,27,27,0.4);  --tinygradient: linear-gradient(90deg, rgb(var(--mgrgb3),.3), rgb(var(--mgrgb2),.3), rgb(var(--mgrgb1),.3)); --mggradient2: linear-gradient(90deg, rgb(var(--mgrgb3),.5), rgb(var(--mgrgb2),.5), rgb(var(--mgrgb1),.5));  --mggradient3: linear-gradient(270deg, rgb(var(--mgrgb3),.25), rgb(var(--mgrgb2),.25), rgb(var(--mgrgb1),.25));}
+html[color-mode="dark"] .tinytemplate { --fontcolor: 255,255,255; --tinybg: rgba(27,27,27,0.4);  --tinygradient: linear-gradient(90deg, rgb(var(--mgrgb3),.3), rgb(var(--mgrgb2),.3), rgb(var(--mgrgb1),.3)); --mggradient1: linear-gradient(90deg, rgb(var(--mgrgb3),.5), rgb(var(--mgrgb2),.5), rgb(var(--mgrgb1),.5));  --mggradient2: linear-gradient(270deg, rgb(var(--mgrgb3),.25), rgb(var(--mgrgb2),.25), rgb(var(--mgrgb1),.25));}
 
 .tinytemplate { color:rgb(var(--fontcolor)); }
 
