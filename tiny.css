@@ -1,0 +1,73 @@
+.tinytemplate { --fontcolor: 0,0,0; --tinybg: rgba(255,255,255,0.4); --tinygradient: linear-gradient(90deg, rgb(var(--mgrgb3),.3), rgb(var(--mgrgb2),.3), rgb(var(--mgrgb1),.3)); --mggradient1: linear-gradient(90deg, rgb(var(--mgrgb3),.5), rgb(var(--mgrgb2),.5), rgb(var(--mgrgb1),.5));  --mggradient2: linear-gradient(270deg, rgb(var(--mgrgb3),.25), rgb(var(--mgrgb2),.25), rgb(var(--mgrgb1),.25));
+}
+
+html[color-mode="dark"] .tinytemplate { --fontcolor: 255,255,255; --tinybg: rgba(27,27,27,0.4);  --tinygradient: linear-gradient(90deg, rgb(var(--mgrgb3),.3), rgb(var(--mgrgb2),.3), rgb(var(--mgrgb1),.3)); --mggradient2: linear-gradient(90deg, rgb(var(--mgrgb3),.5), rgb(var(--mgrgb2),.5), rgb(var(--mgrgb1),.5));  --mggradient3: linear-gradient(270deg, rgb(var(--mgrgb3),.25), rgb(var(--mgrgb2),.25), rgb(var(--mgrgb1),.25));}
+
+.tinytemplate { color:rgb(var(--fontcolor)); }
+
+.tinymargin { 
+  margin: 0 auto; 
+  width: 413px; }
+.tinybackground { 
+  width: auto; 
+  height: auto; 
+   background: var(--tinygradient);
+  border-radius: 15px;
+  padding-bottom: 40px;
+}
+.tiny-grid {
+  display: grid;
+  grid-template-rows: 30px 120px 1fr;
+  grid-template-columns: 50px 65px 31.5px 120px 31.5px 65px 1fr;
+  row-gap: 40px; 
+  column-gap: 0px;
+}
+.tiny-rectangle{
+  grid-row: 2;
+  grid-column: 3 / span 3;
+  background: var(--tinybg); border-radius: 15px 15px 15px 15px;
+}
+.tiny-rectangle img {
+position: relative; 
+  top: 10px; 
+  left: 10px;
+  height: 100px; width: 163px;  border-radius: 10px 10px 10px 10px; object-fit: cover; object-position: center}
+
+.tiny-square{
+  grid-row: 2;
+  grid-column: 4 / span 1;
+  background: var(--tinybg); border-radius: 15px 15px 15px 15px;
+}
+.tiny-square img {
+position: relative; 
+  top: 10px; 
+  left: 10px;
+  height: 100px; width: 100px;  border-radius: 10px 10px 10px 10px; object-fit: cover; object-position: center}
+.tiny-text-box {
+  grid-row: 3;
+  grid-column: 2 / span 5;
+  font-family: font-family: 'varela Round', Verdana, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: justify;
+  color: var(--fontcolor);
+  overflow-y: auto;
+  background: var(--tinybg);
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+.tiny-text-box b { 
+  font-family: 'varela Round', Verdana, sans-serif; 
+  font-size: 14px; 
+  background: transparent var(--mggradient1) no-repeat right bottom;
+background-size: 100% 2.5px;
+padding-bottom: 1px;
+}
+.tiny-text-box i { 
+  font-family: 'varela Round', Verdana, sans-serif; 
+  font-size: 16px; 
+  font-size: 14px; 
+  background: var(--mggradient2);border-radius: 7px 7px 7px 7px;
+  padding: 3px;
+}
