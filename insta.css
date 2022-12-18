@@ -366,7 +366,7 @@ padding-bottom: 1px;}
 .comment-grid {
    display: grid;
   grid-template-columns: 10px 50px 150px 100px 190px 10px;
-  grid-template-rows: 70px 100px 1fr 10px;
+  grid-template-rows: 70px 1fr;
   column-gap: 5px;
   row-gap: 5px; 
 }
