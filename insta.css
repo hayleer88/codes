@@ -271,7 +271,6 @@ padding-bottom: 1px;}
   grid-column: 3/ span 3;
   font-family: 'Pearl', 'Brush Script MT'; 
   font-weight: 900;
-  font-weight: 900;
   background: var(--mggradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
   text-align: justify;
   font-size: 16px;
